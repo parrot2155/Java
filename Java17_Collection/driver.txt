@@ -1,0 +1,5 @@
+#properties Test
+#Wed May 28 14:35:23 KST 2025
+pw=1234
+id=admin
+key=value
