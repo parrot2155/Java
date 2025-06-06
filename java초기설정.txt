@@ -1,0 +1,4 @@
+ 이클립스 2022-6버전
+Amazon Corretto 11
+
+preperence > java > jre로컬 넣기 > 컴파일러 버전 맞춰주기
