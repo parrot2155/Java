@@ -45,6 +45,7 @@ public class ForTest02 {
 	}
 	public static void testFor4() {
 		Scanner sc = new Scanner(System.in);
+		System.out.print("행 수 : ");
 		int row = sc.nextInt();
 		System.out.print("칸 수 : ");
 		int col = sc.nextInt();
@@ -58,7 +59,7 @@ public class ForTest02 {
 				}
 			}
 			System.out.println();
-		}
+		}//0910~1000 50분 동안 범위는 프론트, 월 오전 객관식 or ox 20문제 과락 60점 이상
 	}
 }
 
