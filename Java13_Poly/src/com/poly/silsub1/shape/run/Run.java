@@ -8,6 +8,7 @@ public class Run {
 		
 		
 		
+		
 		//추상클래스 Shape를
 		//새로 만든 인터페이스 IShape으로 변경해보자
 		
