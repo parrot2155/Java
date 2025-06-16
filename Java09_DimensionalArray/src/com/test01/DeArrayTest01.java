@@ -2,7 +2,7 @@ package com.test01;
 
 public class DeArrayTest01 {
 	public void test1() {
-		//선언
+		//선언 
 		//선언==변수==stack
 		//레퍼런스변수니까 주소값이 저장된다.
 		int[][] iarr1;
