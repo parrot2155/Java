@@ -99,7 +99,7 @@ public class MemberController {
     	for(int i=0;i<memberCount-1;i++) {
     		for(int j=i+1;j<memberCount;j++) {
     			int res = copy[i].getUserId().compareTo(copy[j].getUserId());
-    			if(res == 1) {
+    			if(res < 1) {
     				str[0]=copy[i];
     				copy[i]=copy[j];
     				copy[j]=str[0];
@@ -127,14 +127,13 @@ public class MemberController {
 	    	for(int i=0;i<memberCount-1;i++) {
 	    		for(int j=i+1;j<memberCount;j++) {
 	    			int res = copy[i].getUserId().compareTo(copy[j].getUserId());
-	    			if(res == 1) {
+	    			if(res < 0) {
 	    				str[0]=copy[i];
 	    				copy[i]=copy[j];
 	    				copy[j]=str[0];///?s
 	    			}
 	    		}
 	    	}
-
     	    return copy;
         
     }

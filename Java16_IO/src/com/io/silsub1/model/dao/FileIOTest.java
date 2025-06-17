@@ -14,7 +14,7 @@ public class FileIOTest {
 		String filename;
 		try {
 			br = new BufferedReader(new InputStreamReader(System.in));
-			
+			System.out.println("생성할 파일명 입력: ");
 			filename = br.readLine();
 			
 			//기반스트림("외부자원")
@@ -52,7 +52,7 @@ public class FileIOTest {
 		
 		try {
 			br = new BufferedReader(new InputStreamReader(System.in));
-			System.out.println("일겅올 파일 이름: ");
+			System.out.println("읽어올 파일 이름: ");
 			String fileName = br.readLine();
 			fr = new FileReader(fileName);
 			int val = 0;
@@ -78,4 +78,9 @@ public class FileIOTest {
 		
 	
 	}
+	
+	
+	
+	
+	
 }
